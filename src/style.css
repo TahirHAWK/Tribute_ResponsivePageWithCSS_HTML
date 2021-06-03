@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+#main{
+  background-color: grey;
+  font-family: 'Mate SC', serif;
+  text-align: center;
+}
+
+/* navbar codes here */
+.navbar {
+ background-color: #0a0a23;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left:0;
+            z-index: 10;  
+  
+}
+ 
+ul{
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 8.1px 10.8px 10px 10px;
+  text-align: center;
+  
+}
+li {
+   display: inline-block;
+  padding: 10.9px 10.8px 10px 10px;
+ 
+}
+li:hover { 
+  background-color: #999;
+}
+#logo {
+  height: 29px;
+  clip-path: circle(50% at 50% 50%);
+  position: relative;
+  top: 19px;
+}
+
+/* other body codes here */
+
+.all{
+  position: absolute;
+  top: 12.5%
+}
+
+#title {
+  text-align: center;
+ 
+}
+hr {
+  border: 2px solid #0a0a23;
+  position: relative;
+  bottom: 10px;
+  
+}
+img {
+   max-width: 80%;
+  height: auto;
+  display: block;            
+  margin-left: auto;  
+  margin-right: auto;
+  box-shadow: 5px 10px #555555;
+/*   this is how an image is made responsive */
+}
+
+#img-caption{
+/*   text-transform: lowercase;  */
+  text-align: center;
+  position: relative;
+/*   top: 20px; */
+}
+#tribute-info {
+  text-align: center;
+}
+
+p{
+  max-width: 80%;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
